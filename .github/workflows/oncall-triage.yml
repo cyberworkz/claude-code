@@ -3,10 +3,7 @@ description: Automatically identify and label critical blocking issues requiring
 on:
   push:
     branches:
-      - add-oncall-triage-workflow  # Temporary: for testing only
-  schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+      - add-oncall-triage-workflow  # Temporary: for testing onl
   workflow_dispatch: # Allow manual trigger
 
 jobs:
